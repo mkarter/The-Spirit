@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+#ui {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: rgba(255,255,255,0.8);
+  padding: 10px;
+  max-width: 200px;
+  font-size: 14px;
+  z-index: 10;
+}
+#ui label {
+  display: block;
+  margin-bottom: 4px;
+}
+#view {
+  width: 100vw;
+  height: 100vh;
+}

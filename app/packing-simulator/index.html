@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Backpack Packing Simulator</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="ui">
+    <h2>Backpack</h2>
+    <label>Width <input id="pack-width" type="number" value="30"></label>
+    <label>Height <input id="pack-height" type="number" value="50"></label>
+    <label>Depth <input id="pack-depth" type="number" value="20"></label>
+    <select id="units">
+      <option value="cm">cm</option>
+      <option value="in">in</option>
+    </select>
+    <button id="create-pack">Create/Reset</button>
+
+    <h2>New Packing Cube</h2>
+    <label>Width <input id="cube-width" type="number" value="15"></label>
+    <label>Height <input id="cube-height" type="number" value="10"></label>
+    <label>Depth <input id="cube-depth" type="number" value="10"></label>
+    <button id="add-cube">Add Cube</button>
+
+    <div id="volume"></div>
+  </div>
+  <div id="view"></div>
+
+  <script src="../js/three.r74.min.js"></script>
+  <script src="../js/OrbitControls.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
